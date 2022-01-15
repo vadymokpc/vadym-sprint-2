@@ -1,159 +1,170 @@
-.foto1 {
-  position: relative;
-  z-index: 2;
+/* .foto1 {
+    position: relative;
+    z-index: 2;
 }
 
 .cilindroDerecho {
-  width: 40rem;
-  height: 24rem;
-  background: #5265E1;
-  left: 55%;
-  right: 0;
-  top: 12rem;
-  border-top-left-radius: 20rem;
-  border-bottom-left-radius: 20rem;
-  position: absolute;
-  z-index: 1;
+    width: 40rem;
+    height: 24rem;
+    background: #5265E1;
+    left: 30%;
+    right: 0;
+    top: 12rem;
+    border-top-left-radius: 20rem;
+    border-bottom-left-radius: 20rem;
+    position: absolute;
+    z-index: 1;
 }
 
 .botonAzul {
-  background: #5265E1;
+    background: #5265E1;
 }
 
 .botonRojo {
-  background: #FA5959;
+    background: #FA5959;
 }
 
-.superior {
-  width: 90rem;
-}
+.superior {}
 
-/* ------------------------------------------------------Sliders------------------------------------------------------- */
+
 .borderLeftRight {
-  position: relative;
-  color: black;
+    position: relative;
+    color: black;
 }
 
 .borderLeftRight::after {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 4px;
-  background-color: #f65959;
-  -webkit-transform: scaleX(0);
-          transform: scaleX(0);
-  -webkit-transition: -webkit-transform 0.4s ease-in-out;
-  transition: -webkit-transform 0.4s ease-in-out;
-  transition: transform 0.4s ease-in-out;
-  transition: transform 0.4s ease-in-out, -webkit-transform 0.4s ease-in-out;
-  -webkit-transform-origin: bottom right;
-          transform-origin: bottom right;
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+
+    background-color: #f65959;
+    transform: scaleX(0);
+    transition: transform 0.4s ease-in-out;
+    transform-origin: bottom right;
+
+
 }
 
 .borderLeftRight:hover::after {
-  -webkit-transform: scaleX(1);
-          transform: scaleX(1);
-  -webkit-transform-origin: bottom left;
-          transform-origin: bottom left;
+    transform: scaleX(1);
+    transform-origin: bottom left;
 }
 
 .sliders {
-  text-decoration: underline;
-  width: 90rem;
-  color: #3d3d3d;
+    text-decoration: underline;
+
+    color: rgb(61, 61, 61);
 }
 
-/* ------------------------------------------------------Sliders------------------------------------------------------- */
-.medio {
-  width: 90rem;
-}
+.medio {}
 
-.downloadExtension {
-  width: 90rem;
-}
+.downloadExtension {}
 
-.frequentlyAsked {
-  width: 90rem;
-}
+.frequentlyAsked {}
 
-.acordeon {
-  width: 90rem;
-}
+.acordeon {}
 
 .featuresTitulo {
-  margin-top: 6rem;
+    margin-top: 6rem;
+
 }
 
-.features {
-  width: 90rem;
-}
+.features {}
 
 .foto2 {
-  position: absolute;
-  z-index: 2;
+    position: absolute;
+    z-index: 2;
 }
 
 .cilinIzquierdo {
-  width: 40rem;
-  height: 24rem;
-  background: #5265E1;
-  left: -27%;
-  right: 0;
-  top: 6rem;
-  border-top-right-radius: 20rem;
-  border-bottom-right-radius: 20rem;
-  position: relative;
-  z-index: 1;
+    width: 40rem;
+    height: 24rem;
+    background: #5265E1;
+    left: -27%;
+    right: 0;
+    top: 6rem;
+    border-top-right-radius: 20rem;
+    border-bottom-right-radius: 20rem;
+    position: relative;
+    z-index: 1;
 }
 
 .textoDerecho,
 .pderecho {
-  margin: revert;
-  padding-left: 3rem;
+    margin: revert;
+    padding-left: 3rem;
 }
 
 .textoDownload {
-  margin-top: 10rem;
+    margin-top: 10rem;
 }
 
-.chromeFirefoxOpera {
-  width: 90rem;
-}
+.chromeFirefoxOpera {}
 
-.card {
-  padding-top: 3rem;
-}
+.card {}
 
 .cardText {
-  border-bottom: 6px;
-  width: 100%;
+    border-bottom: 6px;
+    width: 100%;
 }
 
-.mozillaCard {
-  margin-top: 10rem;
-}
+.mozillaCard {}
 
-.operaCard {
-  margin-top: 20rem;
-}
+.operaCard {}
 
 .chromeCard,
 .mozillaCard,
 .operaCard {
-  border-radius: 7%;
+    border-radius: 7%;
 }
 
 .footer {
-  background: #5165df;
-  width: 90rem;
-  height: 30%;
-  margin-top: 7rem;
+    background: #5165df;
+    height: 30%;
+    margin-top: 7rem;
 }
 
 .footerNavbarNegro {
-  background: #232845;
-  width: 100%;
+    background: #232845;
+    width: 100%;
 }
+ */
+/*  ---------------------------------------------------------- */
+/* PRIMER CONTAINER */
+.botonAzul {
+  background: #5165df;
+}
+
+.imagen {
+  position: relative;
+}
+
+.cilindro1 {
+  background: #5165df;
+  height: 225px;
+  width: 360px;
+  position: absolute;
+  border-top-left-radius: 35%;
+  border-bottom-left-radius: 35%;
+}
+
+/* PRIMER CONTAINER */
+/* TERCER CONTAINER */
+.imagen2 {
+  position: relative;
+}
+
+.cilindro2 {
+  background: #5165df;
+  height: 245px;
+  width: 374px;
+  position: absolute;
+  border-top-right-radius: 35%;
+  border-bottom-right-radius: 35%;
+}
+
+/* TERCER CONTAINER */
 /*# sourceMappingURL=style.css.map */

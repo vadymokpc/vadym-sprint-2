@@ -1,4 +1,4 @@
-.foto1 {
+/* .foto1 {
     position: relative;
     z-index: 2;
 }
@@ -7,7 +7,7 @@
     width: 40rem;
     height: 24rem;
     background: #5265E1;
-    left: 55%;
+    left: 30%;
     right: 0;
     top: 12rem;
     border-top-left-radius: 20rem;
@@ -24,11 +24,8 @@
     background: #FA5959;
 }
 
-.superior {
-    width: 90rem;
-}
+.superior {}
 
-/* ------------------------------------------------------Sliders------------------------------------------------------- */
 
 .borderLeftRight {
     position: relative;
@@ -58,36 +55,24 @@
 
 .sliders {
     text-decoration: underline;
-    width: 90rem;
+
     color: rgb(61, 61, 61);
 }
 
-/* ------------------------------------------------------Sliders------------------------------------------------------- */
-.medio {
-    width: 90rem;
-}
+.medio {}
 
-.downloadExtension {
-    width: 90rem;
-}
+.downloadExtension {}
 
-.frequentlyAsked {
-    width: 90rem;
+.frequentlyAsked {}
 
-}
-
-.acordeon {
-    width: 90rem;
-}
+.acordeon {}
 
 .featuresTitulo {
     margin-top: 6rem;
 
 }
 
-.features {
-    width: 90rem;
-}
+.features {}
 
 .foto2 {
     position: absolute;
@@ -117,26 +102,18 @@
     margin-top: 10rem;
 }
 
-.chromeFirefoxOpera {
-    width: 90rem;
-}
+.chromeFirefoxOpera {}
 
-.card {
-    padding-top: 3rem;
-}
+.card {}
 
 .cardText {
     border-bottom: 6px;
     width: 100%;
 }
 
-.mozillaCard {
-    margin-top: 10rem;
-}
+.mozillaCard {}
 
-.operaCard {
-    margin-top: 20rem;
-}
+.operaCard {}
 
 .chromeCard,
 .mozillaCard,
@@ -146,7 +123,6 @@
 
 .footer {
     background: #5165df;
-    width: 90rem;
     height: 30%;
     margin-top: 7rem;
 }
@@ -155,5 +131,43 @@
     background: #232845;
     width: 100%;
 }
+ */
 
-@media (max-width: 427px) {}
+/*  ---------------------------------------------------------- */
+
+/* PRIMER CONTAINER */
+.botonAzul {
+    background: #5165df;
+}
+
+.imagen {
+    position: relative;
+}
+
+.cilindro1 {
+    background: #5165df;
+    height: 225px;
+    width: 360px;
+    position: absolute;
+    border-top-left-radius: 35%;
+    border-bottom-left-radius: 35%;
+}
+
+/* PRIMER CONTAINER */
+
+/* TERCER CONTAINER */
+
+.imagen2 {
+    position: relative;
+}
+
+.cilindro2 {
+    background: #5165df;
+    height: 245px;
+    width: 374px;
+    position: absolute;
+    border-top-right-radius: 35%;
+    border-bottom-right-radius: 35%;
+}
+
+/* TERCER CONTAINER */

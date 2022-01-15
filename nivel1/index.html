@@ -17,17 +17,20 @@
 
 <body>
 
-    <header>
+    <!--    <header>
 
-        <nav class="navbar navbar-expand-sm container navbar-light bg-white">
+        <nav class="navbar navbar-expand-md navbar-light bg-white">
             <div class="container-xl d-flex">
                 <a class="navbar-brand" href="#">
                     <img src="/RecursosProjecteSprint2/Imagenes/logo-bookmark.svg" alt="logo" width="100%"
                         class="nav-item">
                 </a>
                 <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#MenuNavegacion">
+
                     <span class="navbar-toggler-icon"></span>
+
                 </button>
+
                 <div id="MenuNavegacion" class="collapse navbar-collapse justify-content-end">
 
                     <ul class="navbar-nav ms-3 ">
@@ -44,28 +47,43 @@
 
     <div class="superior container mt-5">
 
-        <div class="row d-flex ">
+        <div class="row">
 
-            <div class="colIzquierda flex-column flex-sm-row mt-5 col-6 ">
+            <div class="colIzquierda flex-column flex-sm-row mt-5 col-12 col-sm-6 col order-2">
 
-                <h1>A Simple Bookmark Manager</h1>
+                <div class="row">
 
-                <p>A clean and simole interface to oraanize vour favourite
-                    websites. Open a new browser tab and see your sites loar
-                    instantly. Try it for free.</p>
+                    <div class="texto col-12 col-sm-6 flex-row flex-sm-column d-flex ">
 
-                <button type="button"
-                    class="btn botonAzul px-5 pe-5 pt-3 pb-3 me-3 mt-4 shadow-lg text-white rounded-3">Get it
-                    on
-                    Chrome</button>
-                <button type="button" class="btn btn-ligth px-5 pe-5 pt-3 pb-3 mt-4 shadow-lg rounded-3">Get it on
-                    Firefox</button>
+                        <h1 class="simpleBookmarkManager justify-content-center">A Simple Bookmark
+                            Manager</h1>
+
+                        <p>A clean and simole interface to oraanize vour favourite
+                            websites. Open a new browser tab and see your sites loar
+                            instantly. Try it for free.</p>
+
+                    </div>
+
+                    <div class="texto col-12 col-sm-6 flex-row flex-sm-column">
+
+
+                        <button type="button"
+                            class="btn botonAzul px-5 pe-5 pt-3 pb-3 me-3 mt-4 shadow-lg text-white rounded-3">Get it
+                            on
+                            Chrome</button>
+                        <button type="button" class="btn btn-ligth px-5 pe-5 pt-3 pb-3 mt-4 shadow-lg rounded-3">Get it
+                            on
+                            Firefox</button>
+
+                    </div>
+
+                </div>
 
             </div>
 
-            <div class="colDerecha  flex-column flex-sm-row col-6">
+            <div class="colDerecha flex-column flex-sm-row col-12 col-sm-6 col order-1">
 
-                <img class="foto1" src="/RecursosProjecteSprint2/Imagenes/illustration-hero.svg">
+                <img class="foto1 " src="/RecursosProjecteSprint2/Imagenes/illustration-hero.svg">
 
                 <div class="cilindroDerecho flex-column flex-sm-row">
                 </div>
@@ -175,68 +193,61 @@
 
     </div>
 
-    <div class="chromeFirefoxOpera container-fluid">
-        justify-content-center align-items-center
-        <div class="">
+    <div class="chromeFirefoxOpera container">
 
-            <div class="row flex-column flex-sm-row  d-flex align-items-center justify-content-center">
+        <div class="row flex-column flex-sm-row  d-flex align-items-center justify-content-center">
 
 
-                <div class="chromeCard col-12 col-sm-4 card  align-items-center me-4 shadow" style="width: 18rem;">
+            <div class="chromeCard col-12 col-sm-4 card  align-items-center me-4 shadow" style="width: 18rem;">
 
-                    <img src="/RecursosProjecteSprint2/Imagenes/logo-chrome.svg" class="card-img-top"
-                        style="width: 33%;" alt="...">
-                    <div class=" card-body">
-                        <h5 class="card-title d-flex justify-content-center">Add to Chrome</h5>
-                        <p class="cardText card-text d-flex justify-content-center">Minimum version 62</p>
-                    </div>
-
-                    <img src="/RecursosProjecteSprint2/Imagenes/bg-dots.svg" class="cardDots" alt="...">
-
-                    <a href="#"
-                        class="btn botonAzul text-white d-flex justify-content-center my-5 ps-4 pe-4 pt-2 pb-2">Add
-                        &
-                        Install
-                        Extension</a>
+                <img src="/RecursosProjecteSprint2/Imagenes/logo-chrome.svg" class="card-img-top" style="width: 33%;"
+                    alt="...">
+                <div class=" card-body">
+                    <h5 class="card-title d-flex justify-content-center">Add to Chrome</h5>
+                    <p class="cardText card-text d-flex justify-content-center">Minimum version 62</p>
                 </div>
 
-                <div class="mozillaCard col-12 col-sm-4 card d-flex align-items-center me-4 shadow"
-                    style="width: 18rem;">
-                    <img src="/RecursosProjecteSprint2/Imagenes/logo-firefox.svg" class="card-img-top"
-                        style="width: 33%;" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title d-flex justify-content-center">Add to Mozilla</h5>
-                        <p class="cardText card-text d-flex justify-content-center">Minimum version 55</p>
-                    </div>
+                <img src="/RecursosProjecteSprint2/Imagenes/bg-dots.svg" class="cardDots" alt="...">
 
-                    <img src="/RecursosProjecteSprint2/Imagenes/bg-dots.svg" class="cardDots" alt="...">
+                <a href="#" class="btn botonAzul text-white d-flex justify-content-center my-5 ps-4 pe-4 pt-2 pb-2">Add
+                    &
+                    Install
+                    Extension</a>
+            </div>
 
-                    <a href="#"
-                        class="btn botonAzul text-white d-flex justify-content-center my-5 ps-4 pe-4 pt-2 pb-2">Add
-                        &
-                        Install Extension</a>
+            <div class="mozillaCard col-12 col-sm-4 card d-flex align-items-center me-4 shadow" style="width: 18rem;">
+                <img src="/RecursosProjecteSprint2/Imagenes/logo-firefox.svg" class="card-img-top" style="width: 33%;"
+                    alt="...">
+                <div class="card-body">
+                    <h5 class="card-title d-flex justify-content-center">Add to Mozilla</h5>
+                    <p class="cardText card-text d-flex justify-content-center">Minimum version 55</p>
                 </div>
 
-                <div class="operaCard col-12 col-sm-4 card  d-flex align-items-center me-4 shadow"
-                    style="width: 18rem;">
-                    <img src="/RecursosProjecteSprint2/Imagenes/logo-opera.svg" class="card-img-top" style="width: 33%;"
-                        alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title d-flex justify-content-center">Add to Opera</h5>
-                        <p class="cardText card-text d-flex justify-content-center">Minimum version 46</p>
-                    </div>
+                <img src="/RecursosProjecteSprint2/Imagenes/bg-dots.svg" class="cardDots" alt="...">
 
-                    <img src="/RecursosProjecteSprint2/Imagenes/bg-dots.svg" class="cardDots" alt="...">
+                <a href="#" class="btn botonAzul text-white d-flex justify-content-center my-5 ps-4 pe-4 pt-2 pb-2">Add
+                    &
+                    Install Extension</a>
+            </div>
 
-                    <a href="#"
-                        class="btn botonAzul text-white d-flex justify-content-center my-5 ps-4 pe-4 pt-2 pb-2">Add
-                        &
-                        Install Extension</a>
+            <div class="operaCard col-12 col-sm-4 card  d-flex align-items-center me-4 shadow" style="width: 18rem;">
+                <img src="/RecursosProjecteSprint2/Imagenes/logo-opera.svg" class="card-img-top" style="width: 33%;"
+                    alt="...">
+                <div class="card-body">
+                    <h5 class="card-title d-flex justify-content-center">Add to Opera</h5>
+                    <p class="cardText card-text d-flex justify-content-center">Minimum version 46</p>
                 </div>
 
+                <img src="/RecursosProjecteSprint2/Imagenes/bg-dots.svg" class="cardDots" alt="...">
+
+                <a href="#" class="btn botonAzul text-white d-flex justify-content-center my-5 ps-4 pe-4 pt-2 pb-2">Add
+                    &
+                    Install Extension</a>
             </div>
 
         </div>
+
+
 
     </div>
 
@@ -291,12 +302,12 @@
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="flush-headingOne">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#flush-collapseOne" aria-expanded="false"
-                                aria-controls="flush-collapseOne">
+                                data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                aria-controls="flush-collapseTwo">
                                 How can i request a new browser
                             </button>
                         </h2>
-                        <div id="flush-collapseOne" class="accordion-collapse collapse"
+                        <div id="flush-collapseTwo" class="accordion-collapse collapse"
                             aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
                             <div class="accordion-body">Placeholder content for this accordion, which is intended to
                                 demonstrate the <code>.accordion-flush</code> class. This is the first item's
@@ -308,12 +319,12 @@
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="flush-headingTwo">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#flush-collapseTwo" aria-expanded="false"
-                                aria-controls="flush-collapseTwo">
+                                data-bs-target="#flush-collapseTree" aria-expanded="false"
+                                aria-controls="flush-collapseTree">
                                 Is there a mobile app?
                             </button>
                         </h2>
-                        <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                        <div id="flush-collapseTree" class="accordion-collapse collapse"
                             aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
                             <div class="accordion-body">Placeholder content for this accordion, which is intended to
                                 demonstrate the <code>.accordion-flush</code> class. This is the second item's
@@ -360,7 +371,7 @@
 
     <footer>
 
-        <div class="footer container-fluid p-0">
+        <div class="footer container p-0">
 
             <div class="row d-flex justify-content-center align-items-center">
 
@@ -448,16 +459,179 @@
 
         </div>
 
-    </footer>
-    <!-- Enlace carpeta JS
+    </footer> -->
+
+    <body>
+
+        <!-- NAVBAR  -->
+        <nav class="navbar navbar-expand-md navbar navbar-light bg-light fixed-top">
+            <div class="container-xl d-flex">
+                <a class="navbar-brand" href="#">
+                    <img src="/RecursosProjecteSprint2/Imagenes/logo-bookmark.svg" alt="logo" width="100%"
+                        class="nav-item">
+                </a>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#MenuNavegacion">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div id="MenuNavegacion" class="collapse navbar-collapse justify-content-end">
+
+                    <ul class="navbar-nav ms-3">
+                        <li class="nav-item"><a href="#" class="nav-link">FEATURES</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">PRICING</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">CONTACT</a></li>
+                        <button type="button" class="btn btn-danger login">Login</button>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- NAVBAR  -->
+
+        <!-- PRIMER CONTAINER -->
+        <div class="container mt-5">
+            <div class="row">
+
+                <div class="col-12 col-md-6 order-md-2 mt-5 d-flex justify-content-md-center">
+
+                    <span class="cilindro1 mt-5"></span>
+
+                    <img src="/RecursosProjecteSprint2/Imagenes/illustration-hero.svg" alt="" width="350rem"
+                        class="imagen me-4 mt-4">
+
+                </div>
+
+                <div class="col-12 col-md-6 order-md-1 mt-5">
+
+                    <h1 class="text-center">A Simple Bookmark
+                        Manager</h1>
+
+                    <p>A clean and simole interface to oraanize vour favourite
+                        websites. Open a new browser tab and see your sites loar
+                        instantly. Try it for free.</p>
+
+                    <div class="botones d-flex justify-content-center justify-content-md-start">
+
+                        <button type="button" class="btn botonAzul shadow-lg text-white rounded-3 me-2">Get it
+                            on
+                            Chrome</button>
+                        <button type="button" class="btn botonGris shadow-lg rounded-3">Get it
+                            on
+                            Firefox</button>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <!-- PRIMER CONTAINER -->
+
+        <!-- SEGUNDO CONTAINER -->
+        <div class="container mt-5">
+            <div class="row">
+
+                <div class="col-12 col-md-3"></div>
+                <div class="col-12 col-md-6">
+                    <h2 class="text-center"><strong>Features</strong></h2>
+                    <p class="text-center">Our aim is to make it quick and
+                        easy for you
+                        to access your favourite websites. Your bookmarks
+                        sync
+                        between
+                        your devices so you can access them on the go.</p>
+                </div>
+                <div class="col-12 col-md-3"></div>
+            </div>
+        </div>
+
+        <div class="container mt-3">
+            <div class="row">
+
+                <div class="col-12 col-md-2"></div>
+
+                <div class="col-12 flex-column flex-md-row d-flex col-md-8 justify-content-md-center">
+
+                    <p class="lineas d-flex justify-content-center text-secondary d-md-none">
+                        ___________________________________________</p>
+
+                    <p class="d-flex justify-content-center me-md-3 mb-0">Simple
+                        Bookmarking</p>
+                    <p class="lineas d-flex justify-content-center text-secondary d-md-none">
+                        ___________________________________________</p>
+                    <p class="d-flex justify-content-center me-md-3 mb-0">Speedy
+                        Searching</p>
+
+                    <p class="lineas d-flex justify-content-center text-secondary d-md-none">
+                        ___________________________________________</p>
+                    <p class="d-flex justify-content-center mb-0">Easy Sharing</p>
+
+                    <p class="lineas d-flex justify-content-center text-secondary d-md-none">
+                        ___________________________________________</p>
+
+                </div>
+
+                <p
+                    class="lineas d-flex justify-content-center text-secondary font-weight-bold d-none d-sm-flex mt-md-0">
+                    ________________________________________________________________</p>
+
+                <div class="col-12 col-md-2"></div>
+            </div>
+        </div>
+        <!-- SEGUNDO CONTAINER -->
+
+        <!-- TERCER CONTAINER -->
+        <div class="container">
+            <div class="row bg-success">
+
+                <div class="col-12 col-md-6 order-md-1 mt-5 d-flex justify-content-md-center bg-warning">
+
+                    <span class="cilindro2 mt-5 me-5"></span>
+
+                    <img src="/RecursosProjecteSprint2/Imagenes/illustration-features-tab-1.svg" alt="" width="350rem"
+                        class="imagen2 me-4 mt-4">
+
+                </div>
+
+                <div class="col-12 col-md-6 order-md-2 mt-5 bg-danger">
+
+                    <h2 class="text-center mt-5"><strong>Bookmark in one click</strong></h2>
+
+                    <p class="text-center">Organize your bookmarks however you like. Our
+                        simple drag-and-drop interface gives you complete control over how you manage your
+                        favourite
+                        sites.
+                    </p>
+
+                    <div class="botones justify-content-md-start d-none d-md-flex">
+
+                        <button type="button" class="btn botonAzul shadow-lg text-white rounded-3 me-2">More
+                            info</button>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <!-- TERCER CONTAINER -->
+
+
+
+
+
+
+
+
+
+
+        <!-- Enlace carpeta JS
                     Bootstrap -->
-    <script src="/bootstrap/js/bootstrap.min.js"></script>
+        <script src="/bootstrap/js/bootstrap.min.js"></script>
 
-    <!-- Enlace Ionicons-->
-    <script script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"> </script>
-    <script script nomodule src="https: // unpkg .com / ionicons @ 5.5.2 / dist / ionicons / ionicons.js ">
-    </script>
+        <!-- Enlace Ionicons-->
+        <script script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"> </script>
+        <script script nomodule src="https: // unpkg .com / ionicons @ 5.5.2 / dist / ionicons / ionicons.js ">
+        </script>
 
-</body>
+    </body>
 
 </html>
