@@ -1,143 +1,6 @@
-/* .foto1 {
-    position: relative;
-    z-index: 2;
-}
-
-.cilindroDerecho {
-    width: 40rem;
-    height: 24rem;
-    background: #5265E1;
-    left: 30%;
-    right: 0;
-    top: 12rem;
-    border-top-left-radius: 20rem;
-    border-bottom-left-radius: 20rem;
-    position: absolute;
-    z-index: 1;
-}
-
-.botonAzul {
-    background: #5265E1;
-}
-
-.botonRojo {
-    background: #FA5959;
-}
-
-.superior {}
-
-
-.borderLeftRight {
-    position: relative;
-    color: black;
-}
-
-.borderLeftRight::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 4px;
-
-    background-color: #f65959;
-    transform: scaleX(0);
-    transition: transform 0.4s ease-in-out;
-    transform-origin: bottom right;
-
-
-}
-
-.borderLeftRight:hover::after {
-    transform: scaleX(1);
-    transform-origin: bottom left;
-}
-
-.sliders {
-    text-decoration: underline;
-
-    color: rgb(61, 61, 61);
-}
-
-.medio {}
-
-.downloadExtension {}
-
-.frequentlyAsked {}
-
-.acordeon {}
-
-.featuresTitulo {
-    margin-top: 6rem;
-
-}
-
-.features {}
-
-.foto2 {
-    position: absolute;
-    z-index: 2;
-}
-
-.cilinIzquierdo {
-    width: 40rem;
-    height: 24rem;
-    background: #5265E1;
-    left: -27%;
-    right: 0;
-    top: 6rem;
-    border-top-right-radius: 20rem;
-    border-bottom-right-radius: 20rem;
-    position: relative;
-    z-index: 1;
-}
-
-.textoDerecho,
-.pderecho {
-    margin: revert;
-    padding-left: 3rem;
-}
-
-.textoDownload {
-    margin-top: 10rem;
-}
-
-.chromeFirefoxOpera {}
-
-.card {}
-
-.cardText {
-    border-bottom: 6px;
-    width: 100%;
-}
-
-.mozillaCard {}
-
-.operaCard {}
-
-.chromeCard,
-.mozillaCard,
-.operaCard {
-    border-radius: 7%;
-}
-
-.footer {
-    background: #5165df;
-    height: 30%;
-    margin-top: 7rem;
-}
-
-.footerNavbarNegro {
-    background: #232845;
-    width: 100%;
-}
- */
-
-/*  ---------------------------------------------------------- */
-
 /* PRIMER CONTAINER */
 .botonAzul {
-    background: #5165df;
+    background: #5265E1;
 }
 
 .imagen {
@@ -145,7 +8,7 @@
 }
 
 .cilindro1 {
-    background: #5165df;
+    background: #5265E1;
     height: 225px;
     width: 360px;
     position: absolute;
@@ -179,3 +42,23 @@
 }
 
 /* CARDS CONTAINER */
+
+/* FOOTER CONTAINER */
+
+.footerAzul {
+    background: #5265E1;
+}
+
+.botonRojo {
+    background-color: #f65959;
+}
+
+.footerNegro {
+    background: #232845;
+}
+
+.featuresFooter {
+    font-size: 60%;
+}
+
+/* FOOTER CONTAINER */
