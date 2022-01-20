@@ -96,74 +96,167 @@
         </div>
     </div>
 
-    <div class="container mt-3">
-        <div class="row">
-
-            <div class="col-12 col-md-2"></div>
-
-            <div class="col-12 flex-column flex-md-row d-flex col-md-8 justify-content-md-center">
-
-                <p class="lineas d-flex justify-content-center text-secondary d-md-none">
-                    ___________________________________________</p>
-
-                <p class="d-flex justify-content-center me-md-3 mb-0">Simple
-                    Bookmarking</p>
-                <p class="lineas d-flex justify-content-center text-secondary d-md-none">
-                    ___________________________________________</p>
-                <p class="d-flex justify-content-center me-md-3 mb-0">Speedy
-                    Searching</p>
-
-                <p class="lineas d-flex justify-content-center text-secondary d-md-none">
-                    ___________________________________________</p>
-                <p class="d-flex justify-content-center mb-0">Easy Sharing</p>
-
-                <p class="lineas d-flex justify-content-center text-secondary d-md-none">
-                    ___________________________________________</p>
-
-            </div>
-
-            <p class="lineas d-flex justify-content-center text-secondary font-weight-bold d-none d-sm-flex mt-md-0">
-                ________________________________________________________________</p>
-
-            <div class="col-12 col-md-2"></div>
-        </div>
-    </div>
-    <!-- SEGUNDO CONTAINER -->
-
-    <!-- TERCER CONTAINER -->
     <div class="container">
+
         <div class="row">
 
-            <div class="col-12 col-md-6 order-md-1 mt-5 d-flex justify-content-md-center">
+            <ul class="nav nav-tabs d-flex justify-content-lg-center" id="myTab" role="tablist">
 
-                <span class="cilindro2 mt-5 me-5"></span>
 
-                <img src="/RecursosProjecteSprint2/Imagenes/illustration-features-tab-1.svg" alt="" width="350rem"
-                    class="imagen2 me-4 mt-4">
+                <div class="col-12 d-flex justify-content-center col-md-4 justify-content-md-end col-lg-3">
 
-            </div>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home"
+                            type="button" role="tab" aria-controls="home" aria-selected="true">Simple
+                            Bookmarking</button>
+                    </li>
 
-            <div class="col-12 col-md-6 order-md-2 mt-5">
+                </div>
 
-                <h2 class="text-center mt-5"><strong>Bookmark in one click</strong></h2>
+                <div class="col-12 d-flex justify-content-center col-md-4 col-lg-3">
 
-                <p class="text-center">Organize your bookmarks however you like. Our
-                    simple drag-and-drop interface gives you complete control over how you manage your
-                    favourite
-                    sites.
-                </p>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile"
+                            type="button" role="tab" aria-controls="profile" aria-selected="false">Speedy
+                            Searching</button>
+                    </li>
 
-                <div class="botones justify-content-md-start d-none d-md-flex">
+                </div>
 
-                    <button type="button" class="btn botonAzul shadow-lg text-white rounded-3 me-2">More
-                        info</button>
+                <div class="col-12 d-flex justify-content-center col-md-4 justify-content-md-start col-lg-3">
+
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact"
+                            type="button" role="tab" aria-controls="contact" aria-selected="false">Easy Sharing</button>
+                    </li>
+
+                </div>
+
+            </ul>
+
+            <div class="tab-content" id="myTabContent">
+
+                <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="tab-1">
+
+                    <div class="container">
+                        <div class="row">
+
+                            <div class="col-12 col-md-6 order-md-1 mt-5 d-flex justify-content-md-center">
+
+                                <span class="cilindro2 mt-5"></span>
+
+                                <img src="/RecursosProjecteSprint2/Imagenes/illustration-features-tab-1.svg" alt=""
+                                    width="350rem" class="imagen2 me-4 mt-4">
+
+                            </div>
+
+                            <div class="col-12 col-md-6 order-md-2 mt-5">
+
+                                <h2 class="text-center mt-5"><strong>Bookmark in one click</strong></h2>
+
+                                <p class="text-center">Organize your bookmarks however you like. Our
+                                    simple drag-and-drop interface gives you complete control over how you manage your
+                                    favourite
+                                    sites.
+                                </p>
+
+                                <div class="botones justify-content-md-start d-none d-md-flex">
+
+                                    <button type="button" class="btn botonAzul shadow-lg text-white rounded-3 me-2">More
+                                        info</button>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="tab-2">
+
+                    <div class="container">
+
+                        <div class="row">
+
+                            <div class="col-12 col-md-6 order-md-1 mt-5 d-flex justify-content-md-center">
+
+                                <span class="cilindro3 "></span>
+
+                                <img src="/RecursosProjecteSprint2/Imagenes/illustration-features-tab-2.svg" alt=""
+                                    width="350rem" class="imagen3 me-4 mt-4">
+
+                            </div>
+
+                            <div class="col-12 col-md-6 order-md-2 mt-5">
+
+                                <h2 class="text-center mt-5"><strong>Intelligent search</strong></h2>
+
+                                <p class="text-center">Our powerful search feature will help you find saved sites in no
+                                    time at all. No need to trawl through all of your bookmarks.
+                                </p>
+
+                                <div class="botones justify-content-md-start d-none d-md-flex">
+
+                                    <button type="button" class="btn botonAzul shadow-lg text-white rounded-3 me-2">More
+                                        info</button>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="tab-3">
+
+                    <div class="container">
+
+                        <div class="row">
+
+                            <div class="col-12 col-md-6 order-md-1 mt-5 d-flex justify-content-md-center">
+
+                                <span class="cilindro4"></span>
+
+                                <img src="/RecursosProjecteSprint2/Imagenes/illustration-features-tab-3.svg" alt=""
+                                    width="350rem" class="imagen4 me-4 mt-4">
+
+                            </div>
+
+                            <div class="col-12 col-md-6 order-md-2 mt-5">
+
+                                <h2 class="text-center mt-5"><strong>Share your bookmarks</strong></h2>
+
+                                <p class="text-center">Easily share your bookmarks and collections with others. Create a
+                                    shareable link that you can send at the click of a button.
+                                </p>
+
+                                <div class="botones justify-content-md-start d-none d-md-flex">
+
+                                    <button type="button" class="btn botonAzul shadow-lg text-white rounded-3 me-2">More
+                                        info</button>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
 
                 </div>
 
             </div>
 
         </div>
+
     </div>
+    <!-- SEGUNDO CONTAINER -->
+
+    <!-- TERCER CONTAINER -->
+
     <!-- TERCER CONTAINER -->
 
     <!-- CARDS CONTAINER -->

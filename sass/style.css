@@ -15,9 +15,47 @@
   position: absolute;
   border-top-left-radius: 35%;
   border-bottom-left-radius: 35%;
+  margin-left: 7%;
 }
 
 /* PRIMER CONTAINER */
+/* SEGUNDO CONTAINER */
+#myTab li.active a {
+  border-bottom-color: orange;
+  border-top-color: transparent;
+}
+
+.imagen3 {
+  position: relative;
+}
+
+.cilindro3 {
+  background: #5165df;
+  height: 245px;
+  width: 365px;
+  position: absolute;
+  border-top-right-radius: 35%;
+  border-bottom-right-radius: 35%;
+  margin-top: 7rem;
+  margin-right: 13%;
+}
+
+.imagen4 {
+  position: relative;
+}
+
+.cilindro4 {
+  background: #5165df;
+  height: 245px;
+  width: 365px;
+  position: absolute;
+  border-top-right-radius: 35%;
+  border-bottom-right-radius: 35%;
+  margin-top: 7rem;
+  margin-right: 13%;
+}
+
+/* SEGUNDO CONTAINER */
 /* TERCER CONTAINER */
 .imagen2 {
   position: relative;
@@ -30,6 +68,7 @@
   position: absolute;
   border-top-right-radius: 35%;
   border-bottom-right-radius: 35%;
+  margin-right: 10%;
 }
 
 /* TERCER CONTAINER */
