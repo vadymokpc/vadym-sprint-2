@@ -31,7 +31,7 @@
 }
 
 #myTab li button.active {
-  border-bottom-color: orange;
+  border-bottom-color: #f65959;
   border-width: 3px;
 }
 

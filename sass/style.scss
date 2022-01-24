@@ -1,16 +1,16 @@
 /*  ---------------------------------------------------------- */
 
 /* PRIMER CONTAINER */
-.botonAzul {
+/* .botonAzul {
     background: #5265E1;
-}
+} */
 
 .imagen {
     position: relative;
 }
 
 .cilindro1 {
-    background: #5265E1;
+    background: $primary;
     height: 225px;
     width: 360px;
     position: absolute;
@@ -31,7 +31,7 @@
         border-top: none;
 
         &.active {
-            border-bottom-color: orange;
+            border-bottom-color: $secondary;
             border-width: 3px;
         }
 
@@ -41,13 +41,12 @@
     }
 }
 
-
 .imagen3 {
     position: relative;
 }
 
 .cilindro3 {
-    background: #5165df;
+    background: $primary;
     height: 245px;
     width: 365px;
     position: absolute;
@@ -62,7 +61,7 @@
 }
 
 .cilindro4 {
-    background: #5165df;
+    background: $primary;
     height: 245px;
     width: 365px;
     position: absolute;
@@ -81,7 +80,7 @@
 }
 
 .cilindro2 {
-    background: #5165df;
+    background: $primary;
     height: 245px;
     width: 374px;
     position: absolute;
@@ -103,11 +102,11 @@
 /* FOOTER CONTAINER */
 
 .footerAzul {
-    background: #5265E1;
+    background: $primary;
 }
 
 .botonRojo {
-    background-color: #f65959;
+    background-color: $secondary;
 }
 
 .footerNegro {
