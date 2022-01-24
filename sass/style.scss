@@ -22,11 +22,25 @@
 /* PRIMER CONTAINER */
 
 /* SEGUNDO CONTAINER */
+#myTab {
+    border-bottom: none;
 
-#myTab li.active a {
-    border-bottom-color: orange;
-    border-top-color: transparent;
+    li button {
+        border-left: none;
+        border-right: none;
+        border-top: none;
+
+        &.active {
+            border-bottom-color: orange;
+            border-width: 3px;
+        }
+
+        &:hover {
+            border-color: transparent !important;
+        }
+    }
 }
+
 
 .imagen3 {
     position: relative;
@@ -57,7 +71,6 @@
     margin-top: 7rem;
     margin-right: 13%;
 }
-
 
 /* SEGUNDO CONTAINER */
 

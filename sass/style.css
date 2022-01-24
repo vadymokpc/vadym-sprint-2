@@ -20,9 +20,23 @@
 
 /* PRIMER CONTAINER */
 /* SEGUNDO CONTAINER */
-#myTab li.active a {
+#myTab {
+  border-bottom: none;
+}
+
+#myTab li button {
+  border-left: none;
+  border-right: none;
+  border-top: none;
+}
+
+#myTab li button.active {
   border-bottom-color: orange;
-  border-top-color: transparent;
+  border-width: 3px;
+}
+
+#myTab li button:hover {
+  border-color: transparent !important;
 }
 
 .imagen3 {
